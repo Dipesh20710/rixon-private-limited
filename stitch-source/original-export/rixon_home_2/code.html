@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&amp;family=Space+Grotesk:wght@500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-primary-fixed": "#001c3b", "surface-tint": "#a6c8ff", "secondary-fixed": "#d7e2ff", "on-tertiary-container": "#212a39", "error": "#ffb4ab", "tertiary-container": "#8891a4", "surface-container-high": "#272b29", "on-primary": "#00315f", "secondary-fixed-dim": "#b5c7ef", "on-secondary": "#1e3051", "on-secondary-container": "#a7b9e0", "surface": "#111413", "on-tertiary": "#283140", "primary-fixed-dim": "#a6c8ff", "surface-container": "#1d201f", "on-secondary-fixed-variant": "#354768", "on-background": "#e1e3e1", "tertiary-fixed": "#dae3f7", "tertiary-fixed-dim": "#bec7db", "on-tertiary-fixed": "#131c2a", "surface-container-low": "#191c1b", "on-primary-container": "#002a54", "on-error": "#690005", "surface-container-lowest": "#0c0f0e", "on-secondary-fixed": "#061b3b", "on-tertiary-fixed-variant": "#3e4758", "primary": "#a6c8ff", "primary-fixed": "#d5e3ff", "inverse-surface": "#e1e3e1", "error-container": "#93000a", "surface-dim": "#111413", "inverse-primary": "#005fb0", "surface-bright": "#373a38", "on-surface": "#e1e3e1", "on-primary-fixed-variant": "#004787", "tertiary": "#bec7db", "secondary-container": "#37496b", "background": "#111413", "inverse-on-surface": "#2e3130", "secondary": "#b5c7ef", "surface-container-highest": "#323534", "outline-variant": "#404753", "surface-variant": "#323534", "outline": "#8a919e", "on-surface-variant": "#c0c7d5", "primary-container": "#3392fc", "on-error-container": "#ffdad6" }, "borderRadius": { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" }, "spacing": { "space-lg": "1.5rem", "space-sm": "0.5rem", "gutter-mobile": "1rem", "margin-mobile": "1.25rem", "space-xl": "2.5rem", "margin": "3rem", "space-md": "1rem", "gutter": "1.5rem", "space-xs": "0.25rem" }, "fontFamily": { "body-lg": ["Geist"], "label-lg": ["Geist"], "body-md": ["Geist"], "label-md": ["Geist"], "display-mobile": ["Space Grotesk"], "headline-lg": ["Space Grotesk"], "headline-sm": ["Space Grotesk"], "headline-lg-mobile": ["Space Grotesk"], "label-sm": ["Geist"], "display": ["Space Grotesk"], "body-sm": ["Geist"], "headline-md": ["Space Grotesk"] }, "fontSize": { "body-lg": ["18px", { "lineHeight": "28px", "letterSpacing": "-0.01em", "fontWeight": "400" }], "label-lg": ["14px", { "lineHeight": "20px", "letterSpacing": "0.02em", "fontWeight": "500" }], "body-md": ["15px", { "lineHeight": "24px", "letterSpacing": "0em", "fontWeight": "400" }], "label-md": ["12px", { "lineHeight": "16px", "letterSpacing": "0.04em", "fontWeight": "500" }], "display-mobile": ["36px", { "lineHeight": "44px", "letterSpacing": "-0.02em", "fontWeight": "700" }], "headline-lg": ["40px", { "lineHeight": "48px", "letterSpacing": "-0.025em", "fontWeight": "600" }], "headline-sm": ["20px", { "lineHeight": "28px", "letterSpacing": "-0.015em", "fontWeight": "600" }], "headline-lg-mobile": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.02em", "fontWeight": "600" }], "label-sm": ["11px", { "lineHeight": "14px", "letterSpacing": "0.06em", "fontWeight": "600" }], "display": ["56px", { "lineHeight": "64px", "letterSpacing": "-0.03em", "fontWeight": "700" }], "body-sm": ["13px", { "lineHeight": "20px", "letterSpacing": "0em", "fontWeight": "400" }], "headline-md": ["28px", { "lineHeight": "36px", "letterSpacing": "-0.02em", "fontWeight": "600" }] } } } };</script><style>@layer base{html,body{width:100vw;margin:0;padding:0;background-color:#111413;color:#e1e3e1;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style></head><body class="bg-surface font-body-md text-body-md text-on-surface antialiased flex flex-col min-h-screen"><header class="fixed top-0 inset-x-0 z-50 bg-surface-container-lowest/85 backdrop-blur-xl pt-safe"><div class="h-16 px-margin-mobile flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-sm min-w-0"><img alt="RIXON Logo" class="h-8 w-auto max-w-[120px] object-contain flex-shrink-0" src="https://lh3.googleusercontent.com/aida/ALJJyrDCHN7yrkFbUXQXMUc32dQyvKLzCmtzCR5H63kW3caJn9IIDYggDTgZ4lstbQfqntyuR_ermVxbiq0J2CFnG5j5QPmjFdl6OXfsCLSoy5V11CTEVBcBoRSGwT9GhWiAF8PSgmX7y9VHi87-HaAOayMsUNpQuk4Q8BCHkG9SHGJAZ1BmeuhyMBsPYiQbdWYHdGm-gpNogQIMTRxFcXS2b0hhys3ORT7BjlFpzVJJVnFpP3_moi1K-vYw79c"/><span class="font-headline-sm text-headline-sm text-on-surface truncate hidden sm:inline">Home</span></div><div class="flex items-center gap-space-sm flex-shrink-0"><a class="inline-flex items-center justify-center gap-space-xs h-10 px-space-md rounded-lg bg-primary-container text-on-primary-fixed font-label-lg text-label-lg shadow-[0_0_16px_rgba(8,127,232,0.4)] transition-all active:scale-95" data-path="contact" href="#"><span class="material-symbols-outlined text-[18px]">mail</span><span class="whitespace-nowrap font-medium">Let's Talk</span></a><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida/ALJJyrDCHN7yrkFbUXQXMUc32dQyvKLzCmtzCR5H63kW3caJn9IIDYggDTgZ4lstbQfqntyuR_ermVxbiq0J2CFnG5j5QPmjFdl6OXfsCLSoy5V11CTEVBcBoRSGwT9GhWiAF8PSgmX7y9VHi87-HaAOayMsUNpQuk4Q8BCHkG9SHGJAZ1BmeuhyMBsPYiQbdWYHdGm-gpNogQIMTRxFcXS2b0hhys3ORT7BjlFpzVJJVnFpP3_moi1K-vYw79c"/></div></div></header><main class="flex-1 flex flex-col relative w-full pt-16 pb-28 bg-surface"><div class="flex flex-col w-full text-on-surface">
+<!-- Hero Section -->
+<section class="relative px-margin-mobile pt-space-md pb-space-lg overflow-hidden">
+<div class="relative z-10 flex flex-col items-start gap-space-sm">
+<!-- Status Badge -->
+<div class="inline-flex items-center gap-space-xs px-3 py-1 rounded-full bg-secondary-container/40 text-primary font-label-sm text-label-sm shadow-[0_0_12px_rgba(8,127,232,0.2)]">
+<span class="w-1.5 h-1.5 rounded-full bg-primary-container animate-pulse shadow-[0_0_8px_#3392fc]"></span>
+<span>ENGINEERING ELITE WEB EXPERIENCES</span>
+</div>
+<!-- Headline -->
+<h1 class="font-headline-lg-mobile text-headline-lg-mobile text-on-surface tracking-tight mt-1">
+        We Build Digital Experiences That <span class="text-transparent bg-clip-text bg-gradient-to-r from-primary to-primary-container">Grow Businesses.</span>
+</h1>
+<!-- Subtitle -->
+<p class="font-body-md text-body-md text-on-surface-variant max-w-sm">
+        RIXON is a specialized web engineering studio deploying ultra-fast, high-converting platforms designed for modern enterprises and venture-backed scaleups.
+      </p>
+<!-- CTAs -->
+<div class="flex items-center gap-space-xs w-full pt-2">
+<a class="flex-1 inline-flex items-center justify-center gap-space-xs h-11 px-4 rounded-lg bg-primary-container text-on-primary-fixed font-label-lg text-label-lg font-semibold shadow-[0_0_20px_rgba(8,127,232,0.45)] transition-all active:scale-[0.98]" data-path="contact" href="#">
+<span>Start Your Project</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</a>
+<a class="inline-flex items-center justify-center gap-space-xs h-11 px-4 rounded-lg bg-secondary-container/60 text-on-surface font-label-lg text-label-lg transition-all active:scale-[0.98]" data-path="work" href="#">
+<span>Explore Work</span>
+</a>
+</div>
+<!-- Micro Metrics strip -->
+<div class="grid grid-cols-3 gap-2 w-full mt-4 p-space-sm rounded-xl bg-surface-container-low shadow-sm">
+<div class="flex flex-col items-center text-center">
+<span class="font-headline-sm text-headline-sm text-primary">99.9%</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Uptime SLA</span>
+</div>
+<div class="flex flex-col items-center text-center">
+<span class="font-headline-sm text-headline-sm text-primary">100</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Lighthouse</span>
+</div>
+<div class="flex flex-col items-center text-center">
+<span class="font-headline-sm text-headline-sm text-primary">+42%</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Avg. Lift</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Project Cost Estimator (Moment of Delight) -->
+<section class="px-margin-mobile py-space-sm">
+<div class="p-space-md rounded-xl bg-surface-container-low shadow-md relative overflow-hidden">
+<div class="flex items-center justify-between pb-space-xs">
+<div class="flex items-center gap-2">
+<div class="w-7 h-7 rounded-lg bg-secondary-container flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[18px]">tune</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-on-surface">Interactive Scope Estimator</span>
+</div>
+<span class="px-2 py-0.5 rounded-full bg-secondary-container text-primary font-label-sm text-label-sm">Live</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant pb-space-sm">Select project archetype to reveal expected turnaround and velocity.</p>
+<!-- Scope Tabs -->
+<div class="grid grid-cols-2 gap-2 mb-space-sm" id="archetype-selector">
+<button class="scope-btn p-space-sm rounded-lg bg-secondary-container text-primary text-left transition-all active:scale-[0.98]" onclick="selectTier(0)" type="button">
+<span class="font-label-md text-label-md block font-semibold">Custom Web App</span>
+<span class="font-body-sm text-body-sm opacity-80">Full-stack React / Cloud</span>
+</button>
+<button class="scope-btn p-space-sm rounded-lg bg-surface-container-high text-on-surface-variant text-left transition-all active:scale-[0.98]" onclick="selectTier(1)" type="button">
+<span class="font-label-md text-label-md block font-semibold">Enterprise Site</span>
+<span class="font-body-sm text-body-sm opacity-80">Headless CMS &amp; SEO</span>
+</button>
+</div>
+<div class="p-space-sm rounded-lg bg-surface-container flex items-center justify-between">
+<div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block">DEPLOYMENT VELOCITY</span>
+<span class="font-headline-sm text-headline-sm text-primary font-bold" id="tier-time">14 - 21 Days</span>
+</div>
+<a class="inline-flex items-center gap-1 px-3 py-1.5 rounded-lg bg-primary-container text-on-primary-fixed font-label-sm text-label-sm font-semibold active:scale-95 shadow-[0_0_12px_rgba(8,127,232,0.3)]" data-path="book" href="#">
+<span>Lock Slot</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</a>
+</div>
+</div>
+</section>
+<!-- Core Services -->
+<section class="px-margin-mobile py-space-md">
+<div class="flex flex-col gap-1 mb-space-sm">
+<div class="flex items-center gap-2">
+<span class="font-label-sm text-label-sm tracking-wider text-primary font-semibold uppercase">Engineered Solutions</span>
+</div>
+<h2 class="font-headline-md text-headline-md text-on-surface">Architected for Scale</h2>
+</div>
+<div class="grid grid-cols-1 gap-space-sm">
+<!-- Service 1 -->
+<div class="p-space-md rounded-xl bg-surface-container-low shadow-sm flex flex-col gap-space-xs transition-all hover:bg-surface-container">
+<div class="flex items-center justify-between">
+<div class="w-10 h-10 rounded-lg bg-secondary-container/70 flex items-center justify-center text-primary shadow-[0_0_14px_rgba(8,127,232,0.25)]">
+<span class="material-symbols-outlined text-[22px]">corporate_fare</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary bg-secondary-container/30 px-2 py-0.5 rounded-full">Core</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-1">Business Websites</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          Immersive corporate flagships that establish unquestioned authority, built with surgical precision and optimal search indexing.
+        </p>
+<div class="flex items-center gap-2 mt-2 pt-2 text-on-surface-variant font-label-sm text-label-sm">
+<span class="inline-flex items-center gap-1 text-primary"><span class="material-symbols-outlined text-[14px]">check</span>Sub-second LCP</span>
+<span class="inline-flex items-center gap-1 text-primary"><span class="material-symbols-outlined text-[14px]">check</span>Structured SEO</span>
+</div>
+</div>
+<!-- Service 2 -->
+<div class="p-space-md rounded-xl bg-surface-container-low shadow-sm flex flex-col gap-space-xs transition-all hover:bg-surface-container">
+<div class="flex items-center justify-between">
+<div class="w-10 h-10 rounded-lg bg-secondary-container/70 flex items-center justify-center text-primary shadow-[0_0_14px_rgba(8,127,232,0.25)]">
+<span class="material-symbols-outlined text-[22px]">shopping_cart_checkout</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary bg-secondary-container/30 px-2 py-0.5 rounded-full">High ROI</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-1">E-Commerce Architecture</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          Frictionless headless shopping engines with millisecond checkout pipelines engineered to minimize cart abandonment.
+        </p>
+<div class="flex items-center gap-2 mt-2 pt-2 text-on-surface-variant font-label-sm text-label-sm">
+<span class="inline-flex items-center gap-1 text-primary"><span class="material-symbols-outlined text-[14px]">check</span>Instant Pay</span>
+<span class="inline-flex items-center gap-1 text-primary"><span class="material-symbols-outlined text-[14px]">check</span>Global CDN</span>
+</div>
+</div>
+<!-- Service 3 -->
+<div class="p-space-md rounded-xl bg-surface-container-low shadow-sm flex flex-col gap-space-xs transition-all hover:bg-surface-container">
+<div class="flex items-center justify-between">
+<div class="w-10 h-10 rounded-lg bg-secondary-container/70 flex items-center justify-center text-primary shadow-[0_0_14px_rgba(8,127,232,0.25)]">
+<span class="material-symbols-outlined text-[22px]">developer_board</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary bg-secondary-container/30 px-2 py-0.5 rounded-full">SaaS Ready</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-1">Custom Web Applications</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          Complex dashboards, reactive client portals, and resilient microservices designed to scale securely to millions of events.
+        </p>
+<div class="flex items-center gap-2 mt-2 pt-2 text-on-surface-variant font-label-sm text-label-sm">
+<span class="inline-flex items-center gap-1 text-primary"><span class="material-symbols-outlined text-[14px]">check</span>State Sync</span>
+<span class="inline-flex items-center gap-1 text-primary"><span class="material-symbols-outlined text-[14px]">check</span>JWT &amp; RBAC</span>
+</div>
+</div>
+<!-- Service 4 -->
+<div class="p-space-md rounded-xl bg-surface-container-low shadow-sm flex flex-col gap-space-xs transition-all hover:bg-surface-container">
+<div class="flex items-center justify-between">
+<div class="w-10 h-10 rounded-lg bg-secondary-container/70 flex items-center justify-center text-primary shadow-[0_0_14px_rgba(8,127,232,0.25)]">
+<span class="material-symbols-outlined text-[22px]">rocket_launch</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary bg-secondary-container/30 px-2 py-0.5 rounded-full">Growth</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mt-1">Conversion Landing Pages</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          Laser-focused narrative funnels with dynamic micro-interactions, crafted specifically to maximize paid ad yield.
+        </p>
+<div class="flex items-center gap-2 mt-2 pt-2 text-on-surface-variant font-label-sm text-label-sm">
+<span class="inline-flex items-center gap-1 text-primary"><span class="material-symbols-outlined text-[14px]">check</span>A/B Optimized</span>
+<span class="inline-flex items-center gap-1 text-primary"><span class="material-symbols-outlined text-[14px]">check</span>Zero Layout Shift</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Featured Work Showcase -->
+<section class="px-margin-mobile py-space-md bg-surface-container-lowest/70">
+<div class="flex items-center justify-between mb-space-sm">
+<div>
+<span class="font-label-sm text-label-sm tracking-wider text-primary font-semibold uppercase">Selected Case Studies</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Proven Outcomes</h2>
+</div>
+<a class="text-primary font-label-sm text-label-sm inline-flex items-center gap-0.5 hover:underline" data-path="work" href="#">
+<span>View all</span>
+<span class="material-symbols-outlined text-[16px]">chevron_right</span>
+</a>
+</div>
+<!-- Case Study Card 1 -->
+<div class="flex flex-col rounded-xl bg-surface-container-low overflow-hidden shadow-md mb-space-sm">
+<div class="relative w-full h-44 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="High tech dark mode software dashboard on mobile display with electric blue analytics graphs, glowing cyan nodes, dark navy UI widgets and clean typography, photorealistic 8k render." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDWUc5WDCl43lg8SyHlPKiQZvKgzioeYqWZJtUqzlrVBIoc2_tG5pWfDaxUxjcVh7XQCF1o1TKgL5sYDOqffU6FI9fmTDa2WSygvzbBDjkbMuIswFWX8Zg8smHH1ARW_9apbfKK1PLuujuxRTQfCaD9HVmPTOjZTsx843QWPqOQ6ERnP7Cknt3gM8u9DMgxiFwcF0OfSDHGR7HyN1e-hltpSVKWWWoUjG4FwaHamWo"/>
+<div class="absolute top-3 right-3 px-2 py-1 rounded bg-surface-container-lowest/80 backdrop-blur-md text-primary font-label-sm text-label-sm">
+          FinTech Platform
+        </div>
+</div>
+<div class="p-space-md flex flex-col gap-2">
+<div class="flex items-baseline justify-between">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Aether Global Liquidity</h3>
+<span class="font-label-sm text-label-sm text-primary font-bold">+142% Trial-to-Paid</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          Complete rewrite of the customer onboarding cockpit and real-time execution ledger, reducing latency to 12ms.
+        </p>
+<div class="flex items-center gap-space-sm pt-2">
+<div class="flex items-center gap-1 text-on-surface">
+<span class="material-symbols-outlined text-primary text-[18px]">speed</span>
+<span class="font-label-sm text-label-sm font-semibold">99/100 Lighthouse</span>
+</div>
+<div class="flex items-center gap-1 text-on-surface">
+<span class="material-symbols-outlined text-primary text-[18px]">verified</span>
+<span class="font-label-sm text-label-sm font-semibold">Zero Regressions</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Case Study Card 2 -->
+<div class="flex flex-col rounded-xl bg-surface-container-low overflow-hidden shadow-md">
+<div class="relative w-full h-44 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Minimalist modern dark theme e-commerce platform interface showing bespoke luxury mechanical watches, deep charcoal background, subtle electric blue accents, cinematic studio lighting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuD9VOqTlaGJ7ovfkBL2A7Kl3ewtQZ-HWu5flUOM5v_d3TEEu-BX7-iH73kBHBg6Od3QKyKsv87YcmXW-RwFkFr57LuHSuaJe-448M4FBUJuFxtcgpC4DHfn6FkY7TXyYVfPwOQefXzXWIeHYxCUrTqE8twOmjtSyZKzHbeGgI6AWtoTjTA02m0_7YFgRdm-FtmRIfnezZfqtFbH4fTnEWZlCT5x0yvdpkQx0vfEC0w"/>
+<div class="absolute top-3 right-3 px-2 py-1 rounded bg-surface-container-lowest/80 backdrop-blur-md text-primary font-label-sm text-label-sm">
+          Luxury Commerce
+        </div>
+</div>
+<div class="p-space-md flex flex-col gap-2">
+<div class="flex items-baseline justify-between">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Chronos Atelier</h3>
+<span class="font-label-sm text-label-sm text-primary font-bold">+310% Checkout Speed</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">
+          Headless Shopify store with custom 3D web configurator that increased average order value by $680.
+        </p>
+<div class="flex items-center gap-space-sm pt-2">
+<div class="flex items-center gap-1 text-on-surface">
+<span class="material-symbols-outlined text-primary text-[18px]">speed</span>
+<span class="font-label-sm text-label-sm font-semibold">100/100 Mobile Score</span>
+</div>
+<div class="flex items-center gap-1 text-on-surface">
+<span class="material-symbols-outlined text-primary text-[18px]">trending_up</span>
+<span class="font-label-sm text-label-sm font-semibold">+68% Conv. Rate</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Why Choose RIXON -->
+<section class="px-margin-mobile py-space-md">
+<div class="flex flex-col gap-1 mb-space-sm">
+<span class="font-label-sm text-label-sm tracking-wider text-primary font-semibold uppercase">The RIXON Standard</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Precision Engineering</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">We reject bloated templates and fragile page-builders. Every line of code is bespoke.</p>
+</div>
+<div class="grid grid-cols-2 gap-space-xs">
+<div class="p-space-sm rounded-xl bg-surface-container-low flex flex-col gap-1">
+<div class="w-8 h-8 rounded-lg bg-secondary-container flex items-center justify-center text-primary mb-1">
+<span class="material-symbols-outlined text-[20px]">bolt</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-on-surface">100</span>
+<span class="font-label-sm text-label-sm font-semibold text-primary">Performance</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Perfect Google Lighthouse score guarantee.</p>
+</div>
+<div class="p-space-sm rounded-xl bg-surface-container-low flex flex-col gap-1">
+<div class="w-8 h-8 rounded-lg bg-secondary-container flex items-center justify-center text-primary mb-1">
+<span class="material-symbols-outlined text-[20px]">grid_view</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-on-surface">Pixel-Exact</span>
+<span class="font-label-sm text-label-sm font-semibold text-primary">Precision Design</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Surgical spacing and cohesive branding.</p>
+</div>
+<div class="p-space-sm rounded-xl bg-surface-container-low flex flex-col gap-1">
+<div class="w-8 h-8 rounded-lg bg-secondary-container flex items-center justify-center text-primary mb-1">
+<span class="material-symbols-outlined text-[20px]">query_stats</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-on-surface">+42%</span>
+<span class="font-label-sm text-label-sm font-semibold text-primary">Conversion Focus</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Engineered user psychology &amp; flow triggers.</p>
+</div>
+<div class="p-space-sm rounded-xl bg-surface-container-low flex flex-col gap-1">
+<div class="w-8 h-8 rounded-lg bg-secondary-container flex items-center justify-center text-primary mb-1">
+<span class="material-symbols-outlined text-[20px]">cloud_done</span>
+</div>
+<span class="font-headline-sm text-headline-sm text-on-surface">99.9%</span>
+<span class="font-label-sm text-label-sm font-semibold text-primary">Scalable Tech</span>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Fault-tolerant distributed edge delivery.</p>
+</div>
+</div>
+</section>
+<!-- Client Testimonial Carousel -->
+<section class="px-margin-mobile py-space-md">
+<div class="p-space-md rounded-xl bg-surface-container-low shadow-sm relative overflow-hidden">
+<div class="flex items-center gap-1 text-primary mb-2">
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[18px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface italic mb-space-sm">
+        "RIXON rebuilt our core customer portal from scratch in under 3 weeks. Our customer satisfaction ratings jumped 40% in the first quarter post-launch."
+      </p>
+<div class="flex items-center gap-space-xs">
+<img class="w-10 h-10 rounded-full object-cover" data-alt="Portrait photo of a professional technology executive founder, modern dark office atmosphere with subtle blue backlighting, sharp focus 4k." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCGjNPPMgaRd8Lkr5udMutF1MuEXyvPW9Bt7dzD8TK_IBwsWw_CAjJGnORyjcNRaQGs6x4r_KvD6nZB9T-pGe2MWdEvSljBnBwAukKcpbHeVXf27b8J9wUOAGO5P9q-TOH9TKiTKYOKUK2j4hXRHWCIf_uEY6AN5IMWiBOhUvS1cAGgMsa-hwZQPdxTrUFk-O__01eHT0lHNOBUOJQgA0SeVneUb9mrPiV9fNjmSS4"/>
+<div>
+<h4 class="font-label-lg text-label-lg text-on-surface font-semibold">David K. Vance</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">VP of Product, Quantix Systems</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Call to Action Banner -->
+<section class="px-margin-mobile py-space-sm">
+<div class="p-space-md rounded-xl bg-gradient-to-br from-secondary-container via-surface-container-low to-surface-container shadow-lg flex flex-col items-center text-center gap-space-sm">
+<div class="w-12 h-12 rounded-full bg-primary-container/20 flex items-center justify-center text-primary shadow-[0_0_16px_rgba(8,127,232,0.35)]">
+<span class="material-symbols-outlined text-[28px]">rocket</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Ready to upgrade your web engineering?</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant max-w-xs">
+        Schedule a 20-minute discovery call to receive a comprehensive technical architectural audit.
+      </p>
+<a class="w-full inline-flex items-center justify-center gap-2 h-11 rounded-lg bg-primary-container text-on-primary-fixed font-label-lg text-label-lg font-semibold shadow-[0_0_20px_rgba(8,127,232,0.45)] transition-all active:scale-[0.98]" data-path="contact" href="#">
+<span class="material-symbols-outlined text-[20px]">calendar_month</span>
+<span>Schedule Discovery Call</span>
+</a>
+</div>
+</section>
+<!-- Official Footer & Corporate Credentials -->
+<footer class="mt-space-lg px-margin-mobile pt-space-lg pb-space-md bg-surface-container-lowest">
+<div class="flex flex-col gap-space-md">
+<!-- Logo & Legal Identity -->
+<div class="flex flex-col gap-2">
+<img alt="RIXON PRIVATE LIMITED" class="h-7 w-auto object-contain self-start" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB1zXFiUD_wjD-egOwdK_q0fZx8-Q0TsHLvvclRZAfh6p_HpMKGP0jCb3XkrkLoBwCbvdWkQYeSqQQt82jFs837m6h8zmvu5L9yz1I7ixMb4Vadqemj8Kgr-XkIXU6t_Rp9RNJAasZ7Mg7tZ7tZd1rx7EqMgUFcSYAWP8gmnKXuhYY7Lky_3qswJy2009vv0dJNQ3OpCWLWVWGvcQgXTwjUnEJqV4WWI39t5J-cjegQ2Gc_9XGDromg"/>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1">
+          RIXON PRIVATE LIMITED is an incorporated digital architecture practice specializing in enterprise web applications and performance systems.
+        </p>
+</div>
+<!-- Quick Contact Card -->
+<div class="p-space-sm rounded-lg bg-surface-container flex flex-col gap-2">
+<span class="font-label-sm text-label-sm text-primary font-semibold tracking-wider uppercase">Direct Line &amp; Inquiries</span>
+<a class="flex items-center gap-2 text-on-surface hover:text-primary transition-colors" href="tel:+917305855341">
+<span class="material-symbols-outlined text-[18px] text-primary">phone</span>
+<span class="font-body-sm text-body-sm">+91 7305855341</span>
+</a>
+<a class="flex items-center gap-2 text-on-surface hover:text-primary transition-colors" href="mailto:rixonprivatelimited@gmail.com">
+<span class="material-symbols-outlined text-[18px] text-primary">mail</span>
+<span class="font-body-sm text-body-sm truncate">rixonprivatelimited@gmail.com</span>
+</a>
+<a class="inline-flex items-center justify-center gap-2 h-9 mt-1 rounded bg-secondary-container text-primary font-label-sm text-label-sm font-semibold active:scale-95 shadow-[0_0_12px_rgba(8,127,232,0.2)]" href="https://wa.me/917305855341?text=Hello%20RIXON!%20I%20am%20interested%20in%20developing%20a%20website.%20I%20would%20like%20to%20discuss%20my%20project." rel="noopener noreferrer" target="_blank">
+<span class="material-symbols-outlined text-[18px]">chat</span>
+<span>Instant WhatsApp Chat</span>
+</a>
+</div>
+<!-- Location & Legal -->
+<div class="flex flex-col gap-1 text-on-surface-variant font-body-sm text-body-sm">
+<div class="flex items-center gap-1 text-on-surface">
+<span class="material-symbols-outlined text-[16px] text-primary">location_on</span>
+<span>Chennai, Tamil Nadu, India</span>
+</div>
+<p class="font-label-sm text-label-sm text-on-surface-variant/70 mt-2">
+          © 2026 RIXON PRIVATE LIMITED. All rights reserved. CIN &amp; GST Registered.
+        </p>
+</div>
+</div>
+</footer>
+</div>
+<script>
+  function selectTier(index) {
+    const buttons = document.querySelectorAll('.scope-btn');
+    const timeDisplay = document.getElementById('tier-time');
+    
+    buttons.forEach((btn, i) => {
+      if (i === index) {
+        btn.classList.remove('bg-surface-container-high', 'text-on-surface-variant');
+        btn.classList.add('bg-secondary-container', 'text-primary');
+      } else {
+        btn.classList.add('bg-surface-container-high', 'text-on-surface-variant');
+        btn.classList.remove('bg-secondary-container', 'text-primary');
+      }
+    });
+
+    if (index === 0) {
+      timeDisplay.innerText = '14 - 21 Days';
+    } else {
+      timeDisplay.innerText = '7 - 10 Days';
+    }
+  }
+</script></main><aside class="fixed right-margin-mobile bottom-24 z-50"><a aria-label="Chat on WhatsApp" class="w-12 h-12 rounded-full bg-secondary-container text-primary flex items-center justify-center shadow-[0_4px_20px_rgba(0,0,0,0.6),0_0_16px_rgba(51,146,252,0.3)] transition-transform active:scale-90" href="https://wa.me/917305855341?text=Hello%20RIXON!%20I%20am%20interested%20in%20developing%20a%20website.%20I%20would%20like%20to%20discuss%20my%20project." rel="noopener noreferrer" target="_blank"><span class="material-symbols-outlined text-[24px]">chat</span></a></aside><nav class="fixed bottom-0 inset-x-0 z-50 pb-safe bg-surface-container-lowest/90 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.5)]" data-active-classes="text-primary-container font-label-sm font-semibold"><div class="flex justify-around items-center h-16 px-space-xs"><a aria-current="page" class="flex flex-col items-center justify-center gap-0.5 min-w-[52px] h-12 transition-colors text-primary-container font-label-sm font-semibold" data-path="home" href="#"><span class="material-symbols-outlined text-[22px]">home</span><span class="font-label-sm text-label-sm">Home</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[52px] h-12 text-on-surface-variant hover:text-on-surface transition-colors" data-path="services" href="#"><span class="material-symbols-outlined text-[22px]">terminal</span><span class="font-label-sm text-label-sm">Services</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[52px] h-12 text-on-surface-variant hover:text-on-surface transition-colors" data-path="work" href="#"><span class="material-symbols-outlined text-[22px]">layers</span><span class="font-label-sm text-label-sm">Work</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[52px] h-12 text-on-surface-variant hover:text-on-surface transition-colors" data-path="book" href="#"><span class="material-symbols-outlined text-[22px]">calendar_today</span><span class="font-label-sm text-label-sm">Book</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[52px] h-12 text-on-surface-variant hover:text-on-surface transition-colors" data-path="about" href="#"><span class="material-symbols-outlined text-[22px]">info</span><span class="font-label-sm text-label-sm">About</span></a><a class="flex flex-col items-center justify-center gap-0.5 min-w-[52px] h-12 text-on-surface-variant hover:text-on-surface transition-colors" data-path="contact" href="#"><span class="material-symbols-outlined text-[22px]">alternate_email</span><span class="font-label-sm text-label-sm">Contact</span></a></div></nav></body></html>

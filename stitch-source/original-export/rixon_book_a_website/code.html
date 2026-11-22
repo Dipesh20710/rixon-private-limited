@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@500;600;700&amp;family=Space+Grotesk:wght@600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"secondary-container":"#454747","outline":"#86948a","surface-tint":"#4edea3","on-secondary-fixed-variant":"#454747","surface-container-low":"#191c1b","surface-variant":"#323534","inverse-surface":"#e1e3e1","on-secondary":"#2f3131","background":"#111413","inverse-primary":"#006c49","on-tertiary-fixed-variant":"#842225","primary":"#4edea3","surface-container-high":"#272b29","inverse-on-surface":"#2e3130","on-secondary-container":"#b4b5b5","primary-fixed":"#6ffbbe","primary-container":"#10b981","on-tertiary":"#650911","on-background":"#e1e3e1","tertiary":"#ffb3af","on-primary-container":"#00422b","on-surface":"#e1e3e1","error":"#ffb4ab","tertiary-fixed":"#ffdad7","on-tertiary-container":"#711419","on-primary-fixed-variant":"#005236","surface-container-lowest":"#0c0f0e","on-error":"#690005","surface-container-highest":"#323534","on-primary-fixed":"#002113","on-error-container":"#ffdad6","secondary-fixed-dim":"#c6c6c7","on-primary":"#003824","surface-dim":"#111413","secondary":"#c6c6c7","tertiary-container":"#fc7c78","error-container":"#93000a","surface-container":"#1d201f","surface":"#111413","primary-fixed-dim":"#4edea3","on-secondary-fixed":"#1a1c1c","on-tertiary-fixed":"#410005","secondary-fixed":"#e2e2e2","on-surface-variant":"#bbcabf","tertiary-fixed-dim":"#ffb3af","outline-variant":"#3c4a42","surface-bright":"#373a38"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"space-xs":"0.25rem","gutter":"1.5rem","space-lg":"1.5rem","space-sm":"0.5rem","space-md":"1rem","space-xl":"2rem","margin":"1.5rem"},"fontFamily":{"display-lg":["Space Grotesk"],"label-lg":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"body-md":["Inter"],"headline-sm":["Space Grotesk"],"headline-lg-mobile":["Space Grotesk"],"title-md":["Plus Jakarta Sans"],"body-lg":["Inter"],"headline-lg":["Space Grotesk"],"body-sm":["Inter"],"headline-md":["Space Grotesk"],"display-lg-mobile":["Space Grotesk"]},"fontSize":{"display-lg":["64px",{"lineHeight":"72px","letterSpacing":"-0.03em","fontWeight":"700"}],"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.02em","fontWeight":"600"}],"label-sm":["12px",{"lineHeight":"16px","letterSpacing":"0.06em","fontWeight":"600"}],"body-md":["16px",{"lineHeight":"24px","letterSpacing":"0em","fontWeight":"400"}],"headline-sm":["24px",{"lineHeight":"32px","letterSpacing":"-0.01em","fontWeight":"600"}],"headline-lg-mobile":["32px",{"lineHeight":"38px","letterSpacing":"-0.02em","fontWeight":"600"}],"title-md":["20px",{"lineHeight":"28px","letterSpacing":"-0.01em","fontWeight":"600"}],"body-lg":["18px",{"lineHeight":"28px","letterSpacing":"0em","fontWeight":"400"}],"headline-lg":["48px",{"lineHeight":"56px","letterSpacing":"-0.02em","fontWeight":"600"}],"body-sm":["14px",{"lineHeight":"20px","letterSpacing":"0em","fontWeight":"400"}],"headline-md":["32px",{"lineHeight":"40px","letterSpacing":"-0.015em","fontWeight":"600"}],"display-lg-mobile":["40px",{"lineHeight":"46px","letterSpacing":"-0.02em","fontWeight":"700"}]}}}}</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface text-on-surface font-body-md flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-xl pt-safe shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 px-margin flex items-center justify-between"><div class="flex items-center gap-space-sm"><img alt="RIXON Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAZPbYGh3kT1it0cK3srOgaqLnyFHVQvZe97IZfuBaGN9zdzP_YpMj8MoI6eYekauPbyXj22D6s2jgHrY9Az6vwI9w4fKDmJRimmFEIkFuBy4dBKJP4FTtplbFrjiHtHUhgng91O7wmiHcnXfgnQhO_OepRcSeGIyIiuip-w_jGf1ObMYbN0xwPOJjEL9aauGyGAzKFAiciw8NDacIBtiwJXyTpTQ-zCTnZtKyuZuk"/><span class="font-title-md text-title-md text-on-surface tracking-tight">Book A Website</span></div><div class="flex items-center gap-space-sm"><a class="h-11 px-space-md rounded-lg bg-primary text-on-primary font-label-lg text-label-lg flex items-center justify-center hover:bg-primary-fixed transition-colors" data-path="book-a-website" href="#">Start</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="flex flex-col relative w-full px-margin pt-16 pb-24 bg-surface flex-1"><div class="flex flex-col w-full gap-space-lg pb-space-lg">
+<div class="relative overflow-hidden rounded-xl bg-surface-container p-space-md shadow-lg">
+<div class="pointer-events-none absolute -right-10 -top-10 h-32 w-32 rounded-full bg-primary/15 blur-2xl"></div>
+<div class="relative flex items-center justify-between gap-space-sm mb-space-sm">
+<div class="flex items-center gap-space-sm min-w-0">
+<span class="inline-flex items-center justify-center rounded-full bg-primary/15 px-space-sm py-space-xs font-label-sm text-label-sm text-primary" id="step-badge">Step 1 of 6</span>
+<span class="font-title-md text-title-md text-on-surface truncate" id="step-title-label">Your Details</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant shrink-0">~2 min</span>
+</div>
+<div class="grid grid-cols-6 gap-space-xs" id="progress-bars">
+<button aria-label="Step 1" class="h-1.5 w-full rounded-full bg-primary transition-all duration-300" data-step-nav="1" type="button"></button>
+<button aria-label="Step 2" class="h-1.5 w-full rounded-full bg-surface-container-highest transition-all duration-300" data-step-nav="2" type="button"></button>
+<button aria-label="Step 3" class="h-1.5 w-full rounded-full bg-surface-container-highest transition-all duration-300" data-step-nav="3" type="button"></button>
+<button aria-label="Step 4" class="h-1.5 w-full rounded-full bg-surface-container-highest transition-all duration-300" data-step-nav="4" type="button"></button>
+<button aria-label="Step 5" class="h-1.5 w-full rounded-full bg-surface-container-highest transition-all duration-300" data-step-nav="5" type="button"></button>
+<button aria-label="Step 6" class="h-1.5 w-full rounded-full bg-surface-container-highest transition-all duration-300" data-step-nav="6" type="button"></button>
+</div>
+</div>
+<form class="flex flex-col gap-space-md" id="booking-form" novalidate="">
+<section class="step-panel flex flex-col gap-space-md" data-step="1">
+<div class="rounded-xl bg-surface-container p-space-lg shadow-md flex flex-col gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Let’s get acquainted</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Tell us who you are so we can tailor your studio proposal.</p>
+</div>
+<div class="flex flex-col gap-space-md">
+<label class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Full Name</span>
+<div class="flex items-center gap-space-sm rounded-lg bg-surface-container-lowest px-space-md py-space-sm focus-within:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined text-on-surface-variant text-[20px]">person</span>
+<input class="w-full bg-transparent font-body-md text-body-md text-on-surface placeholder:text-outline focus:outline-none" id="input-name" placeholder="Alex Mercer" type="text" value="Alex Mercer"/>
+</div>
+</label>
+<label class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Email Address</span>
+<div class="flex items-center gap-space-sm rounded-lg bg-surface-container-lowest px-space-md py-space-sm focus-within:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined text-on-surface-variant text-[20px]">mail</span>
+<input class="w-full bg-transparent font-body-md text-body-md text-on-surface placeholder:text-outline focus:outline-none" id="input-email" placeholder="alex@mercerlabs.io" type="email" value="alex@mercerlabs.io"/>
+</div>
+</label>
+<label class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Phone Number</span>
+<div class="flex items-center gap-space-sm rounded-lg bg-surface-container-lowest px-space-md py-space-sm focus-within:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined text-on-surface-variant text-[20px]">call</span>
+<input class="w-full bg-transparent font-body-md text-body-md text-on-surface placeholder:text-outline focus:outline-none" id="input-phone" placeholder="+1 (415) 890-2314" type="tel" value="+1 (415) 890-2314"/>
+</div>
+</label>
+<label class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Business / Brand Name</span>
+<div class="flex items-center gap-space-sm rounded-lg bg-surface-container-lowest px-space-md py-space-sm focus-within:bg-surface-container-high transition-colors">
+<span class="material-symbols-outlined text-on-surface-variant text-[20px]">apartment</span>
+<input class="w-full bg-transparent font-body-md text-body-md text-on-surface placeholder:text-outline focus:outline-none" id="input-business" placeholder="Mercer Labs" type="text" value="Mercer Labs"/>
+</div>
+</label>
+</div>
+</div>
+</section>
+<section class="step-panel hidden flex-col gap-space-md" data-step="2">
+<div class="rounded-xl bg-surface-container p-space-lg shadow-md flex flex-col gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<h2 class="font-headline-sm text-headline-sm text-on-surface">What are we building?</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Select the website type that best fits your mission.</p>
+</div>
+<div class="flex flex-col gap-space-sm" id="type-options">
+<button class="option-card flex items-center justify-between gap-space-md rounded-xl bg-primary/15 p-space-md text-left transition-all" data-group="type" data-value="Business" type="button">
+<div class="flex items-center gap-space-md min-w-0">
+<div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-primary text-on-primary">
+<span class="material-symbols-outlined">corporate_fare</span>
+</div>
+<div class="min-w-0">
+<div class="font-title-md text-title-md text-on-surface">Business</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant truncate">High-converting company &amp; SaaS presence</div>
+</div>
+</div>
+<span class="material-symbols-outlined text-primary shrink-0 check-icon" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+</button>
+<button class="option-card flex items-center justify-between gap-space-md rounded-xl bg-surface-container-high p-space-md text-left transition-all" data-group="type" data-value="E-Commerce" type="button">
+<div class="flex items-center gap-space-md min-w-0">
+<div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-surface-container-lowest text-on-surface-variant">
+<span class="material-symbols-outlined">shopping_bag</span>
+</div>
+<div class="min-w-0">
+<div class="font-title-md text-title-md text-on-surface">E-Commerce</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant truncate">Flagship storefront &amp; seamless checkout</div>
+</div>
+</div>
+<span class="material-symbols-outlined text-outline shrink-0 check-icon">radio_button_unchecked</span>
+</button>
+<button class="option-card flex items-center justify-between gap-space-md rounded-xl bg-surface-container-high p-space-md text-left transition-all" data-group="type" data-value="Portfolio" type="button">
+<div class="flex items-center gap-space-md min-w-0">
+<div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-surface-container-lowest text-on-surface-variant">
+<span class="material-symbols-outlined">auto_awesome_mosaic</span>
+</div>
+<div class="min-w-0">
+<div class="font-title-md text-title-md text-on-surface">Portfolio</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant truncate">Curated showcase for studios &amp; creators</div>
+</div>
+</div>
+<span class="material-symbols-outlined text-outline shrink-0 check-icon">radio_button_unchecked</span>
+</button>
+<button class="option-card flex items-center justify-between gap-space-md rounded-xl bg-surface-container-high p-space-md text-left transition-all" data-group="type" data-value="Landing Page" type="button">
+<div class="flex items-center gap-space-md min-w-0">
+<div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-surface-container-lowest text-on-surface-variant">
+<span class="material-symbols-outlined">rocket_launch</span>
+</div>
+<div class="min-w-0">
+<div class="font-title-md text-title-md text-on-surface">Landing Page</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant truncate">Focused launch page built for conversion</div>
+</div>
+</div>
+<span class="material-symbols-outlined text-outline shrink-0 check-icon">radio_button_unchecked</span>
+</button>
+<button class="option-card flex items-center justify-between gap-space-md rounded-xl bg-surface-container-high p-space-md text-left transition-all" data-group="type" data-value="Custom Web App" type="button">
+<div class="flex items-center gap-space-md min-w-0">
+<div class="flex h-11 w-11 shrink-0 items-center justify-center rounded-lg bg-surface-container-lowest text-on-surface-variant">
+<span class="material-symbols-outlined">terminal</span>
+</div>
+<div class="min-w-0">
+<div class="font-title-md text-title-md text-on-surface">Custom Web App</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant truncate">Interactive dashboards &amp; bespoke tools</div>
+</div>
+</div>
+<span class="material-symbols-outlined text-outline shrink-0 check-icon">radio_button_unchecked</span>
+</button>
+</div>
+</div>
+</section>
+<section class="step-panel hidden flex-col gap-space-md" data-step="3">
+<div class="rounded-xl bg-surface-container p-space-lg shadow-md flex flex-col gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Choose your aesthetic</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Pick the visual direction that resonates with your brand.</p>
+</div>
+<div class="grid grid-cols-2 gap-space-sm" id="style-options">
+<button class="option-card flex flex-col gap-space-sm rounded-xl bg-surface-container-high p-space-md text-left transition-all" data-group="style" data-value="Minimal" type="button">
+<div class="flex items-center justify-between w-full">
+<div class="h-10 w-10 rounded-lg bg-surface-container-lowest flex items-center justify-center">
+<div class="h-4 w-4 rounded-sm bg-on-surface"></div>
+</div>
+<span class="material-symbols-outlined text-outline check-icon text-[20px]">radio_button_unchecked</span>
+</div>
+<div>
+<div class="font-title-md text-title-md text-on-surface">Minimal</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Clean space &amp; crisp type</div>
+</div>
+</button>
+<button class="option-card flex flex-col gap-space-sm rounded-xl bg-surface-container-high p-space-md text-left transition-all" data-group="style" data-value="Editorial" type="button">
+<div class="flex items-center justify-between w-full">
+<div class="h-10 w-10 rounded-lg bg-surface-container-lowest flex flex-col items-center justify-center gap-1 p-2">
+<div class="h-1 w-full rounded-full bg-on-surface"></div>
+<div class="h-1 w-3/4 rounded-full bg-on-surface-variant"></div>
+</div>
+<span class="material-symbols-outlined text-outline check-icon text-[20px]">radio_button_unchecked</span>
+</div>
+<div>
+<div class="font-title-md text-title-md text-on-surface">Editorial</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Magazine rhythm &amp; story</div>
+</div>
+</button>
+<button class="option-card flex flex-col gap-space-sm rounded-xl bg-surface-container-high p-space-md text-left transition-all" data-group="style" data-value="Bold / Dark" type="button">
+<div class="flex items-center justify-between w-full">
+<div class="h-10 w-10 rounded-lg bg-surface-container-lowest flex items-center justify-center">
+<div class="h-5 w-5 rounded-full bg-primary"></div>
+</div>
+<span class="material-symbols-outlined text-outline check-icon text-[20px]">radio_button_unchecked</span>
+</div>
+<div>
+<div class="font-title-md text-title-md text-on-surface">Bold / Dark</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">High contrast &amp; dramatic</div>
+</div>
+</button>
+<button class="option-card flex flex-col gap-space-sm rounded-xl bg-primary/15 p-space-md text-left transition-all" data-group="style" data-value="Glassmorphic" type="button">
+<div class="flex items-center justify-between w-full">
+<div class="h-10 w-10 rounded-lg bg-primary/20 backdrop-blur-md flex items-center justify-center">
+<span class="material-symbols-outlined text-primary text-[20px]">blur_on</span>
+</div>
+<span class="material-symbols-outlined text-primary check-icon text-[20px]" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+</div>
+<div>
+<div class="font-title-md text-title-md text-on-surface">Glassmorphic</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Translucent &amp; layered</div>
+</div>
+</button>
+</div>
+</div>
+</section>
+<section class="step-panel hidden flex-col gap-space-md" data-step="4">
+<div class="rounded-xl bg-surface-container p-space-lg shadow-md flex flex-col gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Investment range</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Helps us align scope, architecture, and dedicated studio time.</p>
+</div>
+<div class="flex flex-col gap-space-sm" id="budget-options">
+<button class="option-card flex items-center justify-between gap-space-md rounded-xl bg-surface-container-high p-space-md text-left transition-all" data-group="budget" data-value="$2k–$5k" type="button">
+<div>
+<div class="font-title-md text-title-md text-on-surface">$2k – $5k</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Launchpad • Essential pages &amp; fast turnaround</div>
+</div>
+<span class="material-symbols-outlined text-outline shrink-0 check-icon">radio_button_unchecked</span>
+</button>
+<button class="option-card flex items-center justify-between gap-space-md rounded-xl bg-primary/15 p-space-md text-left transition-all" data-group="budget" data-value="$5k–$10k" type="button">
+<div>
+<div class="font-title-md text-title-md text-on-surface">$5k – $10k</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Growth • Custom design system &amp; CMS</div>
+</div>
+<span class="material-symbols-outlined text-primary shrink-0 check-icon" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+</button>
+<button class="option-card flex items-center justify-between gap-space-md rounded-xl bg-surface-container-high p-space-md text-left transition-all" data-group="budget" data-value="$10k–$25k" type="button">
+<div>
+<div class="font-title-md text-title-md text-on-surface">$10k – $25k</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Scale • Bespoke interactions &amp; integrations</div>
+</div>
+<span class="material-symbols-outlined text-outline shrink-0 check-icon">radio_button_unchecked</span>
+</button>
+<button class="option-card flex items-center justify-between gap-space-md rounded-xl bg-surface-container-high p-space-md text-left transition-all" data-group="budget" data-value="$25k+" type="button">
+<div>
+<div class="font-title-md text-title-md text-on-surface">$25k+</div>
+<div class="font-body-sm text-body-sm text-on-surface-variant">Enterprise • Full-stack web app &amp; brand suite</div>
+</div>
+<span class="material-symbols-outlined text-outline shrink-0 check-icon">radio_button_unchecked</span>
+</button>
+</div>
+</div>
+</section>
+<section class="step-panel hidden flex-col gap-space-md" data-step="5">
+<div class="rounded-xl bg-surface-container p-space-lg shadow-md flex flex-col gap-space-md">
+<div class="flex flex-col gap-space-xs">
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Project requirements</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Share your goals, key features, and target launch window.</p>
+</div>
+<label class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Project Brief</span>
+<textarea class="w-full rounded-lg bg-surface-container-lowest p-space-md font-body-md text-body-md text-on-surface placeholder:text-outline focus:bg-surface-container-high focus:outline-none transition-colors" id="input-requirements" placeholder="Tell us about your vision, must-have features, or sites you admire..." rows="4">We need a sleek, dark-mode product site with interactive pricing, smooth scroll reveals, and a fast headless CMS.</textarea>
+</label>
+<div class="flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Target Timeline</span>
+<div class="grid grid-cols-2 gap-space-sm" id="timeline-options">
+<button class="timeline-chip rounded-lg bg-surface-container-high px-space-md py-space-sm font-label-lg text-label-lg text-on-surface-variant transition-all" data-group="timeline" data-value="ASAP (2–4 wks)" type="button">ASAP (2–4 wks)</button>
+<button class="timeline-chip rounded-lg bg-primary/15 px-space-md py-space-sm font-label-lg text-label-lg text-primary transition-all" data-group="timeline" data-value="1–2 Months" type="button">1–2 Months</button>
+<button class="timeline-chip rounded-lg bg-surface-container-high px-space-md py-space-sm font-label-lg text-label-lg text-on-surface-variant transition-all" data-group="timeline" data-value="2–3 Months" type="button">2–3 Months</button>
+<button class="timeline-chip rounded-lg bg-surface-container-high px-space-md py-space-sm font-label-lg text-label-lg text-on-surface-variant transition-all" data-group="timeline" data-value="Flexible" type="button">Flexible</button>
+</div>
+</div>
+</div>
+</section>
+<section class="step-panel hidden flex-col gap-space-md" data-step="6">
+<div class="relative overflow-hidden rounded-xl bg-surface-container p-space-lg shadow-xl flex flex-col gap-space-md">
+<div class="pointer-events-none absolute -left-10 -bottom-10 h-36 w-36 rounded-full bg-primary/15 blur-2xl"></div>
+<div class="relative flex items-center justify-between gap-space-sm">
+<div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Review &amp; Submit</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Double-check your project blueprint.</p>
+</div>
+<span class="material-symbols-outlined text-primary text-[28px]">verified</span>
+</div>
+<div class="relative flex flex-col gap-space-sm rounded-xl bg-surface-container-lowest p-space-md">
+<div class="flex items-center justify-between gap-space-sm">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Client</span>
+<span class="font-body-sm text-body-sm text-on-surface text-right truncate" id="summary-client">Alex Mercer • Mercer Labs</span>
+</div>
+<div class="flex items-center justify-between gap-space-sm">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Contact</span>
+<span class="font-body-sm text-body-sm text-on-surface text-right truncate" id="summary-contact">alex@mercerlabs.io</span>
+</div>
+<div class="flex items-center justify-between gap-space-sm">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Website Type</span>
+<span class="font-label-lg text-label-lg text-primary text-right" id="summary-type">Business</span>
+</div>
+<div class="flex items-center justify-between gap-space-sm">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Design Style</span>
+<span class="font-body-sm text-body-sm text-on-surface text-right" id="summary-style">Glassmorphic</span>
+</div>
+<div class="flex items-center justify-between gap-space-sm">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Budget</span>
+<span class="font-label-lg text-label-lg text-primary text-right" id="summary-budget">$5k–$10k</span>
+</div>
+<div class="flex items-center justify-between gap-space-sm">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Timeline</span>
+<span class="font-body-sm text-body-sm text-on-surface text-right" id="summary-timeline">1–2 Months</span>
+</div>
+</div>
+<div class="relative rounded-xl bg-surface-container-lowest p-space-md flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Project Brief</span>
+<p class="font-body-sm text-body-sm text-on-surface line-clamp-3" id="summary-requirements">We need a sleek, dark-mode product site with interactive pricing, smooth scroll reveals, and a fast headless CMS.</p>
+</div>
+</div>
+</section>
+<section class="hidden flex-col items-center text-center rounded-xl bg-surface-container p-space-xl shadow-xl gap-space-md" id="booking-success">
+<div class="flex h-16 w-16 items-center justify-center rounded-full bg-primary/15 text-primary">
+<span class="material-symbols-outlined text-[36px]" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+</div>
+<div class="flex flex-col gap-space-xs">
+<h2 class="font-headline-sm text-headline-sm text-on-surface">Booking Confirmed!</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant">We’ve received your brief for <span class="text-on-surface font-medium" id="success-business">Mercer Labs</span>. Our lead producer will reach out within 24 hours.</p>
+</div>
+<div class="rounded-lg bg-surface-container-lowest px-space-md py-space-sm font-label-sm text-label-sm text-primary">
+        Reference: #RXN-8492
+      </div>
+<button class="mt-space-sm h-11 px-space-lg rounded-lg bg-surface-container-high text-on-surface font-label-lg text-label-lg hover:bg-surface-bright transition-colors" id="reset-booking-btn" type="button">
+        Book Another Project
+      </button>
+</section>
+<div class="flex items-center justify-between gap-space-md pt-space-xs" id="step-actions">
+<button class="hidden h-12 px-space-lg rounded-lg bg-surface-container-high text-on-surface font-label-lg text-label-lg items-center justify-center gap-space-xs hover:bg-surface-bright transition-colors" id="btn-back" type="button">
+<span class="material-symbols-outlined text-[18px]">arrow_back</span>
+<span>Back</span>
+</button>
+<button class="ml-auto flex-1 h-12 px-space-lg rounded-lg bg-primary text-on-primary font-label-lg text-label-lg flex items-center justify-center gap-space-xs shadow-lg hover:bg-primary-fixed transition-colors" id="btn-next" type="button">
+<span id="btn-next-label">Next Step</span>
+<span class="material-symbols-outlined text-[18px]" id="btn-next-icon">arrow_forward</span>
+</button>
+</div>
+</form>
+</div>
+<script>
+  (function () {
+    const state = {
+      step: 1,
+      type: 'Business',
+      style: 'Glassmorphic',
+      budget: '$5k–$10k',
+      timeline: '1–2 Months'
+    };
+
+    const stepTitles = {
+      1: 'Your Details',
+      2: 'Website Type',
+      3: 'Design Style',
+      4: 'Budget Range',
+      5: 'Requirements',
+      6: 'Review & Submit'
+    };
+
+    const panels = document.querySelectorAll('.step-panel');
+    const progressBars = document.querySelectorAll('#progress-bars button');
+    const stepBadge = document.getElementById('step-badge');
+    const stepTitleLabel = document.getElementById('step-title-label');
+    const btnBack = document.getElementById('btn-back');
+    const btnNext = document.getElementById('btn-next');
+    const btnNextLabel = document.getElementById('btn-next-label');
+    const btnNextIcon = document.getElementById('btn-next-icon');
+    const stepActions = document.getElementById('step-actions');
+    const bookingSuccess = document.getElementById('booking-success');
+    const resetBtn = document.getElementById('reset-booking-btn');
+
+    function updateSummary() {
+      const name = document.getElementById('input-name').value.trim() || 'Guest';
+      const business = document.getElementById('input-business').value.trim() || 'Your Brand';
+      const email = document.getElementById('input-email').value.trim() || 'No email provided';
+      const reqs = document.getElementById('input-requirements').value.trim() || 'No additional notes provided.';
+
+      document.getElementById('summary-client').textContent = name + ' • ' + business;
+      document.getElementById('summary-contact').textContent = email;
+      document.getElementById('summary-type').textContent = state.type;
+      document.getElementById('summary-style').textContent = state.style;
+      document.getElementById('summary-budget').textContent = state.budget;
+      document.getElementById('summary-timeline').textContent = state.timeline;
+      document.getElementById('summary-requirements').textContent = reqs;
+      document.getElementById('success-business').textContent = business;
+    }
+
+    function renderStep() {
+      panels.forEach((panel) => {
+        const panelStep = Number(panel.getAttribute('data-step'));
+        if (panelStep === state.step) {
+          panel.classList.remove('hidden');
+          panel.classList.add('flex');
+        } else {
+          panel.classList.add('hidden');
+          panel.classList.remove('flex');
+        }
+      });
+
+      progressBars.forEach((bar) => {
+        const barStep = Number(bar.getAttribute('data-step-nav'));
+        if (barStep <= state.step) {
+          bar.classList.remove('bg-surface-container-highest');
+          bar.classList.add('bg-primary');
+        } else {
+          bar.classList.remove('bg-primary');
+          bar.classList.add('bg-surface-container-highest');
+        }
+      });
+
+      stepBadge.textContent = 'Step ' + state.step + ' of 6';
+      stepTitleLabel.textContent = stepTitles[state.step];
+
+      if (state.step === 1) {
+        btnBack.classList.add('hidden');
+        btnBack.classList.remove('flex');
+      } else {
+        btnBack.classList.remove('hidden');
+        btnBack.classList.add('flex');
+      }
+
+      if (state.step === 6) {
+        updateSummary();
+        btnNextLabel.textContent = 'Submit Booking';
+        btnNextIcon.textContent = 'send';
+      } else {
+        btnNextLabel.textContent = 'Next Step';
+        btnNextIcon.textContent = 'arrow_forward';
+      }
+    }
+
+    document.querySelectorAll('.option-card').forEach((card) => {
+      card.addEventListener('click', () => {
+        const group = card.getAttribute('data-group');
+        const value = card.getAttribute('data-value');
+        state[group] = value;
+
+        document.querySelectorAll('.option-card[data-group="' + group + '"]').forEach((sibling) => {
+          const isSelected = sibling === card;
+          sibling.classList.toggle('bg-primary/15', isSelected);
+          sibling.classList.toggle('bg-surface-container-high', !isSelected);
+
+          const icon = sibling.querySelector('.check-icon');
+          if (icon) {
+            icon.textContent = isSelected ? 'check_circle' : 'radio_button_unchecked';
+            icon.classList.toggle('text-primary', isSelected);
+            icon.classList.toggle('text-outline', !isSelected);
+            icon.style.fontVariationSettings = isSelected ? "'FILL' 1" : "'FILL' 0";
+          }
+        });
+      });
+    });
+
+    document.querySelectorAll('.timeline-chip').forEach((chip) => {
+      chip.addEventListener('click', () => {
+        state.timeline = chip.getAttribute('data-value');
+        document.querySelectorAll('.timeline-chip').forEach((sibling) => {
+          const isSelected = sibling === chip;
+          sibling.classList.toggle('bg-primary/15', isSelected);
+          sibling.classList.toggle('text-primary', isSelected);
+          sibling.classList.toggle('bg-surface-container-high', !isSelected);
+          sibling.classList.toggle('text-on-surface-variant', !isSelected);
+        });
+      });
+    });
+
+    progressBars.forEach((bar) => {
+      bar.addEventListener('click', () => {
+        const target = Number(bar.getAttribute('data-step-nav'));
+        if (!bookingSuccess.classList.contains('hidden')) return;
+        state.step = target;
+        renderStep();
+      });
+    });
+
+    btnBack.addEventListener('click', () => {
+      if (state.step > 1) {
+        state.step -= 1;
+        renderStep();
+      }
+    });
+
+    btnNext.addEventListener('click', () => {
+      if (state.step < 6) {
+        state.step += 1;
+        renderStep();
+      } else {
+        updateSummary();
+        panels.forEach((p) => { p.classList.add('hidden'); p.classList.remove('flex'); });
+        stepActions.classList.add('hidden');
+        bookingSuccess.classList.remove('hidden');
+        bookingSuccess.classList.add('flex');
+      }
+    });
+
+    resetBtn.addEventListener('click', () => {
+      state.step = 1;
+      bookingSuccess.classList.add('hidden');
+      bookingSuccess.classList.remove('flex');
+      stepActions.classList.remove('hidden');
+      renderStep();
+    });
+
+    renderStep();
+  })();
+</script></main><nav class="fixed bottom-0 w-full z-50 pb-safe bg-surface-container-low/90 backdrop-blur-xl shadow-[0_-1px_12px_rgba(0,0,0,0.12)]" data-active-classes="text-primary"><div class="flex justify-around items-center h-20 px-space-sm"><a class="flex flex-col items-center justify-center gap-1 min-w-[44px] min-h-[44px] px-space-xs text-on-surface-variant hover:text-on-surface transition-colors" data-path="home" href="#"><span class="material-symbols-outlined">home</span><span class="font-label-sm text-label-sm">Home</span></a><a class="flex flex-col items-center justify-center gap-1 min-w-[44px] min-h-[44px] px-space-xs text-on-surface-variant hover:text-on-surface transition-colors" data-path="services" href="#"><span class="material-symbols-outlined">design_services</span><span class="font-label-sm text-label-sm">Services</span></a><a class="flex flex-col items-center justify-center gap-1 min-w-[44px] min-h-[44px] px-space-xs text-on-surface-variant hover:text-on-surface transition-colors" data-path="portfolio" href="#"><span class="material-symbols-outlined">grid_view</span><span class="font-label-sm text-label-sm">Work</span></a><a aria-current="page" class="flex flex-col items-center justify-center gap-1 min-w-[44px] min-h-[44px] px-space-xs transition-colors text-primary" data-path="book-a-website" href="#"><span class="material-symbols-outlined">calendar_add_on</span><span class="font-label-sm text-label-sm">Book</span></a><a class="flex flex-col items-center justify-center gap-1 min-w-[44px] min-h-[44px] px-space-xs text-on-surface-variant hover:text-on-surface transition-colors" data-path="about" href="#"><span class="material-symbols-outlined">info</span><span class="font-label-sm text-label-sm">About</span></a></div></nav></body></html>

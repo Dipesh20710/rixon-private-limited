@@ -1,0 +1,1 @@
+import Link from "next/link";export default function NotFound(){return <section className="pagehead"><div className="eyebrow">404 / Not found</div><h1>This page isn't here.</h1><p className="muted">The page may have moved or the link may be incorrect.</p><Link className="button" href="/">Back to RIXON ↗</Link></section>}

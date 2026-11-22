@@ -1,0 +1,3 @@
+import {NextResponse} from "next/server";import {isAdmin} from "@/lib/auth";import {updateBooking} from "@/lib/store";
+const allowed=["New","In Review","Contacted","In Progress","Completed","Declined"];
+export async function PATCH(req:Request,{params}:{params:Promise<{id:string}>}){if(!(await isAdmin()))return NextResponse.json({error:"Unauthorized"},{status:401});try{const {id}=await params;const {status}=await req.json();if(!allowed.includes(status))return NextResponse.json({error:"Invalid status"},{status:400});await updateBooking(id,status);return NextResponse.json({ok:true});}catch{return NextResponse.json({error:"Could not update booking"},{status:404});}}

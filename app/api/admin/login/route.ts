@@ -1,0 +1,2 @@
+import {NextResponse} from "next/server";import {setSession,validPassword,configured} from "@/lib/auth";
+export async function POST(req:Request){try{if(!configured())return NextResponse.json({error:"Admin credentials are not configured."},{status:503});const {password}=await req.json();if(typeof password!=="string"||!validPassword(password))return NextResponse.json({error:"Incorrect password."},{status:401});await setSession();return NextResponse.json({ok:true});}catch{return NextResponse.json({error:"Unable to sign in."},{status:400});}}

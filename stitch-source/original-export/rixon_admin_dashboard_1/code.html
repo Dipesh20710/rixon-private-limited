@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_stack" name="shell-type"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Plus+Jakarta+Sans:wght@500;600;700&amp;family=Space+Grotesk:wght@600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100vw;margin:0;padding:0;}body{overscroll-behavior:none;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,0px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{"colors":{"secondary-container":"#454747","outline":"#86948a","surface-tint":"#4edea3","on-secondary-fixed-variant":"#454747","surface-container-low":"#191c1b","surface-variant":"#323534","inverse-surface":"#e1e3e1","on-secondary":"#2f3131","background":"#111413","inverse-primary":"#006c49","on-tertiary-fixed-variant":"#842225","primary":"#4edea3","surface-container-high":"#272b29","inverse-on-surface":"#2e3130","on-secondary-container":"#b4b5b5","primary-fixed":"#6ffbbe","primary-container":"#10b981","on-tertiary":"#650911","on-background":"#e1e3e1","tertiary":"#ffb3af","on-primary-container":"#00422b","on-surface":"#e1e3e1","error":"#ffb4ab","tertiary-fixed":"#ffdad7","on-tertiary-container":"#711419","on-primary-fixed-variant":"#005236","surface-container-lowest":"#0c0f0e","on-error":"#690005","surface-container-highest":"#323534","on-primary-fixed":"#002113","on-error-container":"#ffdad6","secondary-fixed-dim":"#c6c6c7","on-primary":"#003824","surface-dim":"#111413","secondary":"#c6c6c7","tertiary-container":"#fc7c78","error-container":"#93000a","surface-container":"#1d201f","surface":"#111413","primary-fixed-dim":"#4edea3","on-secondary-fixed":"#1a1c1c","on-tertiary-fixed":"#410005","secondary-fixed":"#e2e2e2","on-surface-variant":"#bbcabf","tertiary-fixed-dim":"#ffb3af","outline-variant":"#3c4a42","surface-bright":"#373a38"},"borderRadius":{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},"spacing":{"space-xs":"0.25rem","gutter":"1.5rem","space-lg":"1.5rem","space-sm":"0.5rem","space-md":"1rem","space-xl":"2rem","margin":"1.5rem"},"fontFamily":{"display-lg":["Space Grotesk"],"label-lg":["Plus Jakarta Sans"],"label-sm":["Plus Jakarta Sans"],"body-md":["Inter"],"headline-sm":["Space Grotesk"],"headline-lg-mobile":["Space Grotesk"],"title-md":["Plus Jakarta Sans"],"body-lg":["Inter"],"headline-lg":["Space Grotesk"],"body-sm":["Inter"],"headline-md":["Space Grotesk"],"display-lg-mobile":["Space Grotesk"]},"fontSize":{"display-lg":["64px",{"lineHeight":"72px","letterSpacing":"-0.03em","fontWeight":"700"}],"label-lg":["14px",{"lineHeight":"20px","letterSpacing":"0.02em","fontWeight":"600"}],"label-sm":["12px",{"lineHeight":"16px","letterSpacing":"0.06em","fontWeight":"600"}],"body-md":["16px",{"lineHeight":"24px","letterSpacing":"0em","fontWeight":"400"}],"headline-sm":["24px",{"lineHeight":"32px","letterSpacing":"-0.01em","fontWeight":"600"}],"headline-lg-mobile":["32px",{"lineHeight":"38px","letterSpacing":"-0.02em","fontWeight":"600"}],"title-md":["20px",{"lineHeight":"28px","letterSpacing":"-0.01em","fontWeight":"600"}],"body-lg":["18px",{"lineHeight":"28px","letterSpacing":"0em","fontWeight":"400"}],"headline-lg":["48px",{"lineHeight":"56px","letterSpacing":"-0.02em","fontWeight":"600"}],"body-sm":["14px",{"lineHeight":"20px","letterSpacing":"0em","fontWeight":"400"}],"headline-md":["32px",{"lineHeight":"40px","letterSpacing":"-0.015em","fontWeight":"600"}],"display-lg-mobile":["40px",{"lineHeight":"46px","letterSpacing":"-0.02em","fontWeight":"700"}]}}}}</script></head><body class="bg-surface text-on-surface font-body-md flex flex-col min-h-screen"><header class="fixed top-0 w-full z-50 bg-surface/80 backdrop-blur-xl pt-safe shadow-[0_1px_8px_rgba(0,0,0,0.04)]"><div class="h-16 px-margin flex items-center justify-between"><div class="flex items-center gap-space-sm"><button class="w-11 h-11 flex items-center justify-center text-on-surface hover:text-primary transition-colors" onclick="history.back()"><span class="material-symbols-outlined">arrow_back_ios_new</span></button><img alt="RIXON Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAZPbYGh3kT1it0cK3srOgaqLnyFHVQvZe97IZfuBaGN9zdzP_YpMj8MoI6eYekauPbyXj22D6s2jgHrY9Az6vwI9w4fKDmJRimmFEIkFuBy4dBKJP4FTtplbFrjiHtHUhgng91O7wmiHcnXfgnQhO_OepRcSeGIyIiuip-w_jGf1ObMYbN0xwPOJjEL9aauGyGAzKFAiciw8NDacIBtiwJXyTpTQ-zCTnZtKyuZuk"/><h1 class="font-title-md text-title-md text-on-surface tracking-tight">Admin Dashboard</h1></div><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></header><main class="flex flex-col relative w-full px-margin pt-16 pb-safe bg-surface flex-1"><div class="flex flex-col w-full gap-space-lg pb-space-xl">
+<section class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Operations Pulse</span>
+<span class="inline-flex items-center gap-space-xs px-space-sm py-space-xs rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm">
+<span class="w-1.5 h-1.5 rounded-full bg-primary animate-pulse"></span>
+        Live
+      </span>
+</div>
+<div class="grid grid-cols-2 gap-space-md">
+<div class="w-full rounded-xl bg-surface-container p-space-md shadow-sm flex flex-col justify-between gap-space-sm relative overflow-hidden">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Total Bookings</span>
+<span class="w-7 h-7 rounded-lg bg-surface-container-high flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[16px]">calendar_month</span>
+</span>
+</div>
+<div class="flex items-end justify-between gap-space-xs">
+<span class="font-headline-sm text-headline-sm text-on-surface">142</span>
+<span class="inline-flex items-center gap-0.5 font-label-sm text-label-sm text-primary">
+<span class="material-symbols-outlined text-[14px]">trending_up</span>
+            +12%
+          </span>
+</div>
+</div>
+<div class="w-full rounded-xl bg-surface-container p-space-md shadow-sm flex flex-col justify-between gap-space-sm relative overflow-hidden">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Pending</span>
+<span class="w-7 h-7 rounded-lg bg-surface-container-high flex items-center justify-center text-tertiary">
+<span class="material-symbols-outlined text-[16px]">hourglass_top</span>
+</span>
+</div>
+<div class="flex items-end justify-between gap-space-xs">
+<span class="font-headline-sm text-headline-sm text-on-surface" id="stat-pending">8</span>
+<span class="inline-flex items-center gap-0.5 font-label-sm text-label-sm text-tertiary">
+<span class="material-symbols-outlined text-[14px]">priority_high</span>
+            3 urgent
+          </span>
+</div>
+</div>
+<div class="w-full rounded-xl bg-surface-container p-space-md shadow-sm flex flex-col justify-between gap-space-sm relative overflow-hidden">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Active Projects</span>
+<span class="w-7 h-7 rounded-lg bg-surface-container-high flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-[16px]">bolt</span>
+</span>
+</div>
+<div class="flex items-end justify-between gap-space-xs">
+<span class="font-headline-sm text-headline-sm text-on-surface" id="stat-active">19</span>
+<span class="inline-flex items-center gap-0.5 font-label-sm text-label-sm text-primary">
+<span class="material-symbols-outlined text-[14px]">trending_up</span>
+            +4 wk
+          </span>
+</div>
+</div>
+<div class="w-full rounded-xl bg-surface-container p-space-md shadow-sm flex flex-col justify-between gap-space-sm relative overflow-hidden">
+<div class="flex items-center justify-between">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Completed</span>
+<span class="w-7 h-7 rounded-lg bg-surface-container-high flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-[16px]">verified</span>
+</span>
+</div>
+<div class="flex items-end justify-between gap-space-xs">
+<span class="font-headline-sm text-headline-sm text-on-surface" id="stat-completed">115</span>
+<span class="inline-flex items-center gap-0.5 font-label-sm text-label-sm text-on-surface-variant">
+            98% CSAT
+          </span>
+</div>
+</div>
+</div>
+</section>
+<section class="flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<h2 class="font-title-md text-title-md text-on-surface">Client Bookings</h2>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Tap to inspect</span>
+</div>
+<div class="flex flex-col gap-space-sm" id="booking-list">
+<button class="booking-card w-full text-left rounded-xl bg-surface-container-high p-space-md shadow-md transition-all flex flex-col gap-space-sm" data-booking-id="bk-1" type="button">
+<div class="flex items-start justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm min-w-0">
+<img class="w-10 h-10 rounded-full object-cover shrink-0 bg-surface-container" data-alt="Minimalist dark-mode studio portrait of a young tech founder in a charcoal turtleneck, soft emerald rim lighting, clean editorial photography, high contrast, RIXON agency aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCybCM6-iMfGGOHIEnaxQ8zl4Cs28Hnl-VR-qOybdMgBnK74bVAkQb81pHdIDv_cp1QepZtnElB9MLUKCuaRhXoWX19xtsfNUA3sZEgQ18y_OTRLWY1HMpKogjJARxrBZv4v7zOh7d-Rtc02sY7AI9B0keWKldaBDwtLGVNFN1vj6zTQeZZWJdtvepFgmcCOsdRZm_Ajb0WgA3khZb_g0biklwx_RYDg2QvxRhfBUY"/>
+<div class="flex flex-col min-w-0">
+<span class="font-label-lg text-label-lg text-on-surface truncate">Elena Vance</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">Vance Robotics</span>
+</div>
+</div>
+<span class="status-badge shrink-0 px-space-sm py-space-xs rounded-full bg-primary/15 text-primary font-label-sm text-label-sm">In Progress</span>
+</div>
+<div class="flex items-center justify-between gap-space-sm pt-space-xs">
+<div class="flex items-center gap-space-sm min-w-0">
+<span class="px-space-sm py-space-xs rounded-lg bg-surface-container text-on-surface-variant font-label-sm text-label-sm truncate">3D Product Showcase</span>
+<span class="font-label-lg text-label-lg text-on-surface">$18,500</span>
+</div>
+<span class="material-symbols-outlined text-primary text-[18px]">arrow_forward</span>
+</div>
+</button>
+<button class="booking-card w-full text-left rounded-xl bg-surface-container p-space-md shadow-sm transition-all flex flex-col gap-space-sm" data-booking-id="bk-2" type="button">
+<div class="flex items-start justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm min-w-0">
+<img class="w-10 h-10 rounded-full object-cover shrink-0 bg-surface-container-high" data-alt="Editorial portrait of a confident creative director with glasses in a dimly lit modern studio, subtle teal ambient glow, sleek minimalist dark background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDkzeQflOF2n8BPq09DBq_eNCTHVnGx7FiuQ0m9SRVWUcs0DazkWFHvtTQTRT9V2nndmf1fgjLKvX07J8HRq6MU13S0D0Y05PPVC71Znt955Sb9QacJzLUKsupVNC40qFuEtUqoHmVWQcJ_frQ4YrQ8HgxTwfUbEOgwyQ7-1RBzI6IL10XwkyK6rCfvo2s0edaFBcVU7QPb0PLs8pY994mJmsDeq7qClVVCLnj4KA4"/>
+<div class="flex flex-col min-w-0">
+<span class="font-label-lg text-label-lg text-on-surface truncate">Marcus Thorne</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">Aether FinTech</span>
+</div>
+</div>
+<span class="status-badge shrink-0 px-space-sm py-space-xs rounded-full bg-tertiary/15 text-tertiary font-label-sm text-label-sm">Pending</span>
+</div>
+<div class="flex items-center justify-between gap-space-sm pt-space-xs">
+<div class="flex items-center gap-space-sm min-w-0">
+<span class="px-space-sm py-space-xs rounded-lg bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm truncate">SaaS Web Platform</span>
+<span class="font-label-lg text-label-lg text-on-surface">$24,000</span>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant text-[18px]">arrow_forward</span>
+</div>
+</button>
+<button class="booking-card w-full text-left rounded-xl bg-surface-container p-space-md shadow-sm transition-all flex flex-col gap-space-sm" data-booking-id="bk-3" type="button">
+<div class="flex items-start justify-between gap-space-sm">
+<div class="flex items-center gap-space-sm min-w-0">
+<img class="w-10 h-10 rounded-full object-cover shrink-0 bg-surface-container-high" data-alt="Sophisticated portrait of an architectural studio founder in minimalist black attire, moody studio lighting with subtle emerald reflection, crisp modern photography." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB1XwFeR49ZNcknYVXyWdgTt0mMICOhJRQsf_CaOwhYr0PrXS2gOGHQv9WxbYAqdVqxSpgJD8USI65nuyGomuo3UYSbUEyEDaF6QHGUom0Hy4YxYp23bVMc-_FU2UrCoglUp1BuCU9R8bIgjq9PEbURKZgGvi1QQv1LyuquyfVCcExr5TfAYaWaroYpm5BouIV3Iwbn26yipRRhlMjmeLWyhQhEw1d_S7uY_CSamQc"/>
+<div class="flex flex-col min-w-0">
+<span class="font-label-lg text-label-lg text-on-surface truncate">Sora Takahashi</span>
+<span class="font-body-sm text-body-sm text-on-surface-variant truncate">Kuro Architecture</span>
+</div>
+</div>
+<span class="status-badge shrink-0 px-space-sm py-space-xs rounded-full bg-surface-container-high text-secondary font-label-sm text-label-sm">Completed</span>
+</div>
+<div class="flex items-center justify-between gap-space-sm pt-space-xs">
+<div class="flex items-center gap-space-sm min-w-0">
+<span class="px-space-sm py-space-xs rounded-lg bg-surface-container-low text-on-surface-variant font-label-sm text-label-sm truncate">Editorial Portfolio</span>
+<span class="font-label-lg text-label-lg text-on-surface">$12,000</span>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant text-[18px]">arrow_forward</span>
+</div>
+</button>
+</div>
+</section>
+<section class="rounded-xl bg-surface-container-low p-space-lg shadow-md flex flex-col gap-space-md relative overflow-hidden" id="detail-panel">
+<div class="flex items-start justify-between gap-space-sm">
+<div class="flex flex-col gap-space-xs min-w-0">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary">Selected Booking</span>
+<h3 class="font-title-md text-title-md text-on-surface truncate" id="detail-client">Elena Vance — Vance Robotics</h3>
+</div>
+<span class="shrink-0 px-space-sm py-space-xs rounded-full bg-primary/15 text-primary font-label-sm text-label-sm" id="detail-badge">In Progress</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant" id="detail-req">
+      Interactive WebGL product configurator for autonomous warehouse drones, paired with a dark-mode investor portal and custom CMS.
+    </p>
+<div class="grid grid-cols-2 gap-space-sm">
+<div class="rounded-lg bg-surface-container p-space-sm flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Approved Budget</span>
+<span class="font-label-lg text-label-lg text-on-surface" id="detail-budget">$18,500</span>
+</div>
+<div class="rounded-lg bg-surface-container p-space-sm flex flex-col gap-space-xs">
+<span class="font-label-sm text-label-sm text-on-surface-variant">Target Timeline</span>
+<span class="font-label-lg text-label-lg text-on-surface" id="detail-timeline">6 Weeks</span>
+</div>
+</div>
+<div class="flex flex-col gap-space-sm pt-space-xs">
+<div class="flex items-center justify-between">
+<label class="font-label-sm text-label-sm text-on-surface-variant" for="status-select">Project Status</label>
+<span class="opacity-0 transition-opacity font-label-sm text-label-sm text-primary flex items-center gap-space-xs" id="status-toast">
+<span class="material-symbols-outlined text-[14px]">check_circle</span>
+          Updated
+        </span>
+</div>
+<div class="flex items-center gap-space-sm">
+<div class="relative flex-1">
+<select class="w-full appearance-none rounded-lg bg-surface-container-high text-on-surface font-body-sm text-body-sm px-space-md py-space-sm pr-space-xl focus:outline-none" id="status-select">
+<option value="Pending">Pending</option>
+<option value="In Review">In Review</option>
+<option selected="" value="Active">Active</option>
+<option value="Completed">Completed</option>
+</select>
+<span class="material-symbols-outlined text-on-surface-variant text-[18px] absolute right-space-sm top-1/2 -translate-y-1/2 pointer-events-none">expand_more</span>
+</div>
+<button class="shrink-0 rounded-lg bg-primary text-on-primary font-label-lg text-label-lg px-space-lg py-space-sm shadow-sm active:scale-95 transition-transform" id="update-status-btn" type="button">
+          Update Status
+        </button>
+</div>
+</div>
+</section>
+</div>
+<script>
+  (function () {
+    const bookings = {
+      "bk-1": {
+        client: "Elena Vance \u2014 Vance Robotics",
+        req: "Interactive WebGL product configurator for autonomous warehouse drones, paired with a dark-mode investor portal and custom CMS.",
+        budget: "$18,500",
+        timeline: "6 Weeks",
+        status: "Active",
+        badgeText: "In Progress"
+      },
+      "bk-2": {
+        client: "Marcus Thorne \u2014 Aether FinTech",
+        req: "High-conversion SaaS marketing site with live API documentation, interactive pricing calculator, and SOC2 trust center.",
+        budget: "$24,000",
+        timeline: "8 Weeks",
+        status: "Pending",
+        badgeText: "Pending"
+      },
+      "bk-3": {
+        client: "Sora Takahashi \u2014 Kuro Architecture",
+        req: "Minimalist editorial portfolio featuring full-bleed architectural photography, smooth page transitions, and private client rooms.",
+        budget: "$12,000",
+        timeline: "4 Weeks",
+        status: "Completed",
+        badgeText: "Completed"
+      }
+    };
+
+    let selectedId = "bk-1";
+    const cards = document.querySelectorAll(".booking-card");
+    const detailClient = document.getElementById("detail-client");
+    const detailReq = document.getElementById("detail-req");
+    const detailBudget = document.getElementById("detail-budget");
+    const detailTimeline = document.getElementById("detail-timeline");
+    const detailBadge = document.getElementById("detail-badge");
+    const statusSelect = document.getElementById("status-select");
+    const updateBtn = document.getElementById("update-status-btn");
+    const toast = document.getElementById("status-toast");
+
+    function badgeClasses(status) {
+      if (status === "Pending") return "bg-tertiary/15 text-tertiary";
+      if (status === "In Review" || status === "Active") return "bg-primary/15 text-primary";
+      return "bg-surface-container-high text-secondary";
+    }
+
+    function displayLabel(status) {
+      return status === "Active" ? "In Progress" : status;
+    }
+
+    function renderSelection(id) {
+      selectedId = id;
+      const data = bookings[id];
+      cards.forEach(card => {
+        const isSelected = card.dataset.bookingId === id;
+        card.classList.toggle("bg-surface-container-high", isSelected);
+        card.classList.toggle("shadow-md", isSelected);
+        card.classList.toggle("bg-surface-container", !isSelected);
+        card.classList.toggle("shadow-sm", !isSelected);
+      });
+
+      detailClient.textContent = data.client;
+      detailReq.textContent = data.req;
+      detailBudget.textContent = data.budget;
+      detailTimeline.textContent = data.timeline;
+      statusSelect.value = data.status;
+
+      detailBadge.className = "shrink-0 px-space-sm py-space-xs rounded-full font-label-sm text-label-sm " + badgeClasses(data.status);
+      detailBadge.textContent = displayLabel(data.status);
+    }
+
+    cards.forEach(card => {
+      card.addEventListener("click", () => renderSelection(card.dataset.bookingId));
+    });
+
+    updateBtn.addEventListener("click", () => {
+      const newStatus = statusSelect.value;
+      bookings[selectedId].status = newStatus;
+      const label = displayLabel(newStatus);
+      const cls = badgeClasses(newStatus);
+
+      detailBadge.className = "shrink-0 px-space-sm py-space-xs rounded-full font-label-sm text-label-sm " + cls;
+      detailBadge.textContent = label;
+
+      const activeCard = document.querySelector(`.booking-card[data-booking-id="${selectedId}"] .status-badge`);
+      if (activeCard) {
+        activeCard.className = "status-badge shrink-0 px-space-sm py-space-xs rounded-full font-label-sm text-label-sm " + cls;
+        activeCard.textContent = label;
+      }
+
+      toast.classList.remove("opacity-0");
+      setTimeout(() => toast.classList.add("opacity-0"), 1800);
+    });
+  })();
+</script></main></body></html>
